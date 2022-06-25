@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T09:00:51.035Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-wVNUWQIay3PogDRfZ6S" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-25T09:09:53.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="MJ-O6ZrqOrO8mvfV2ktR" version="20.0.1" type="github">
   <diagram id="aIaHovVCe3mAm8ZQ5jE0" name="Page-1">
     <mxGraphModel dx="2125" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-17" value="将配置文件中的参数以及shell&lt;br&gt;语句中的参数进行合并，形成&lt;br&gt;最终的参数" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="80" width="186" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-19" value="通过上一步的的参数实例化&lt;br&gt;complier对象，加载所有配置&lt;br&gt;的插件，并执行实例化complier&lt;br&gt;对象的run方法" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-19" value="通过上一步的的参数实例化&lt;br&gt;complier对象，加载所有配置&lt;br&gt;的插件，并执行实例化complier&lt;br&gt;对象的run方法开始编译" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="190" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oEGt5JNwwT2aPw8Bu8Zq-21" target="oEGt5JNwwT2aPw8Bu8Zq-23">
@@ -37,10 +37,10 @@
         <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-21" value="确定入口" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oEGt5JNwwT2aPw8Bu8Zq-23" target="oEGt5JNwwT2aPw8Bu8Zq-25">
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oEGt5JNwwT2aPw8Bu8Zq-23" target="oEGt5JNwwT2aPw8Bu8Zq-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oEGt5JNwwT2aPw8Bu8Zq-23" target="oEGt5JNwwT2aPw8Bu8Zq-28">
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oEGt5JNwwT2aPw8Bu8Zq-23" target="oEGt5JNwwT2aPw8Bu8Zq-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-23" value="翻译模块" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
@@ -52,29 +52,41 @@
         <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oEGt5JNwwT2aPw8Bu8Zq-25" target="oEGt5JNwwT2aPw8Bu8Zq-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-25" value="确认输出" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="570" width="120" height="60" as="geometry" />
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-25" value="输出资源" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oEGt5JNwwT2aPw8Bu8Zq-26" target="oEGt5JNwwT2aPw8Bu8Zq-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-26" value="生成文件" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="690" width="120" height="60" as="geometry" />
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-26" value="写入文件系统" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-27" value="找到配置文件中entry的所有&lt;br&gt;入口文件" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="455" y="345" width="160" height="50" as="geometry" />
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-27" value="找到配置文件中entry的所有入口文件" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="352.5" width="220" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-28" value="从入口文件出发，使用所有配置&lt;br&gt;的loader翻译对应的模块，再找&lt;br&gt;到模块依赖的模块，递归本步骤&lt;br&gt;，直至所有模块被翻译完毕，并&lt;br&gt;且获得模块之间的一个依赖关系图" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-28" value="从入口文件出发，使用所有配置&lt;br&gt;的loader翻译对应的模块，再找&lt;br&gt;到模块依赖的模块，递归本步骤&lt;br&gt;，直至所有模块被翻译" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="446" y="430" width="204" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-29" value="跟据入口文件以及依赖关系图，&lt;br&gt;将模块翻译之后的内容转换为&lt;br&gt;包含多个模块的一个chunk，&lt;br&gt;再将chunk转换为一个文件放入&lt;br&gt;输出列表，这是最后能改变输出&lt;br&gt;结果的机会。" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="449.75" y="545" width="196.5" height="110" as="geometry" />
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-29" value="根据入口文件与模块之间的依赖关系，&lt;br&gt;将翻译之后的模块组装为包含&lt;br&gt;多个模块的一个chunk，&lt;br&gt;再将chunk转换为一个文件放入&lt;br&gt;输出列表，这是能改变输出&lt;br&gt;结果的最后机会。" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="448" y="667.5" width="220.25" height="105" as="geometry" />
         </mxCell>
         <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-30" value="根据配置的文件名以及路径，将&lt;br&gt;输出列表的文件输入到文件系统&lt;br&gt;中。" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="685" width="190" height="70" as="geometry" />
+          <mxGeometry x="460" y="795" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-37" value="webpack会在特定的时间点&lt;br&gt;广播一些事件，插件监听到&lt;br&gt;自己感兴趣的事件，就会&lt;br&gt;执行自己的逻辑代码，&lt;br&gt;也可以调用一些webpack的api&lt;br&gt;修改最后的输出结果" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-130" y="290" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oEGt5JNwwT2aPw8Bu8Zq-38" target="oEGt5JNwwT2aPw8Bu8Zq-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oEGt5JNwwT2aPw8Bu8Zq-38" target="oEGt5JNwwT2aPw8Bu8Zq-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-38" value="完成翻译" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oEGt5JNwwT2aPw8Bu8Zq-39" value="翻译完成后，就能得到所有模块&lt;br&gt;翻译之后的内容以及它们之间的&lt;br&gt;一个依赖关系图" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="565" width="200" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
