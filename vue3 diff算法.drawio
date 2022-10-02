@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T12:49:30.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sYJrKRkXpX8_m-mB0UU3" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T12:54:13.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="uw7DjExJlC71jjJM6pri" version="20.4.0" type="github">
   <diagram id="ILyPGLwqwwxRPI_2Q06Y" name="第 1 页">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -91,11 +91,23 @@
         <mxCell id="0iTJBzLjwEh6FHrzZWZ4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-31" target="0iTJBzLjwEh6FHrzZWZ4-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-31" target="0iTJBzLjwEh6FHrzZWZ4-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-31" target="0iTJBzLjwEh6FHrzZWZ4-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0iTJBzLjwEh6FHrzZWZ4-31" value="3. 中间部分的节点是乱序的，可能有删除、新增节点的情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="810" width="130" height="70" as="geometry" />
+          <mxGeometry x="840" y="805" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0iTJBzLjwEh6FHrzZWZ4-33" value="1. 建立新节点key与其对应下表的映射&lt;br&gt;(Map结构，key是节点key，value是节点下标)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="920" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-36" value="2. 移除新节点队列不存在的节点，更新复用新节点，建立新节点下标与旧节点下标的映射" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="920" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-38" value="3. 获取最长递增子序列，根据最长递增子序列，最小次数移动节点，并且新增节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="920" width="174" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
