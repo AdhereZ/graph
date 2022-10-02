@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T12:40:13.596Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="vy8gQ1x57U5D8FQqCKRv" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T12:49:30.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sYJrKRkXpX8_m-mB0UU3" version="20.4.0" type="github">
   <diagram id="ILyPGLwqwwxRPI_2Q06Y" name="第 1 页">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -61,11 +61,41 @@
         <mxCell id="0iTJBzLjwEh6FHrzZWZ4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-20" target="0iTJBzLjwEh6FHrzZWZ4-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-20" value="这时头尾指针中间的部分是不同的，会有三种情况：" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-20" target="0iTJBzLjwEh6FHrzZWZ4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-20" target="0iTJBzLjwEh6FHrzZWZ4-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-20" value="这时新老节点头尾指针中间的部分是不同的，会有三种情况：" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="505" y="680" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-22" value="中间部分的节点只有新增的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-22" target="0iTJBzLjwEh6FHrzZWZ4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-22" value="1. 中间部分的节点只有新增的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-25" value="直接新增挂载新节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-27" target="0iTJBzLjwEh6FHrzZWZ4-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-27" value="2. 中间部分的节点只有删除的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-29" value="直接删除中间部分节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-31" target="0iTJBzLjwEh6FHrzZWZ4-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-31" value="3. 中间部分的节点是乱序的，可能有删除、新增节点的情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="810" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-33" value="1. 建立新节点key与其对应下表的映射&lt;br&gt;(Map结构，key是节点key，value是节点下标)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="920" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
