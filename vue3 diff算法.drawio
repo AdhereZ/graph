@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T12:37:30.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wT6RyOL5ipA-VSWreqhZ" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T12:40:13.596Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="vy8gQ1x57U5D8FQqCKRv" version="20.4.0" type="github">
   <diagram id="ILyPGLwqwwxRPI_2Q06Y" name="第 1 页">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -52,8 +52,20 @@
         <mxCell id="0iTJBzLjwEh6FHrzZWZ4-16" value="从新老节点队列头指针一一往后遍历对比，直到两指针指向的节点不同停止" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="495" y="400" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="560" width="120" height="60" as="geometry" />
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-18" target="0iTJBzLjwEh6FHrzZWZ4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-18" value="从新老节点队列尾指针一一往前遍历对比，直到两指针指向的节点不同停止" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="530" width="195" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-20" target="0iTJBzLjwEh6FHrzZWZ4-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-20" value="这时头尾指针中间的部分是不同的，会有三种情况：" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="680" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-22" value="中间部分的节点只有新增的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
