@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T12:09:35.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="b9pLUKfPm8ihMedaww_w" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T12:32:31.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="gACD8RASzGF6bMM3po5r" version="20.4.0" type="github">
   <diagram id="ILyPGLwqwwxRPI_2Q06Y" name="第 1 页">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0iTJBzLjwEh6FHrzZWZ4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-1" target="0iTJBzLjwEh6FHrzZWZ4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-1" target="0iTJBzLjwEh6FHrzZWZ4-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0iTJBzLjwEh6FHrzZWZ4-1" value="Vue3 diff算法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -14,10 +17,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0iTJBzLjwEh6FHrzZWZ4-2" value="优化模式下进行diff&lt;br&gt;(patchBlockChildren)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="150" width="180" height="80" as="geometry" />
+          <mxGeometry x="20" y="140" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0iTJBzLjwEh6FHrzZWZ4-4" value="直接对比vnode的dynamicChildren，不需要递归整棵vnode树" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5" y="280" width="170" height="80" as="geometry" />
+          <mxGeometry x="25" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-6" target="0iTJBzLjwEh6FHrzZWZ4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTJBzLjwEh6FHrzZWZ4-6" target="0iTJBzLjwEh6FHrzZWZ4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-6" value="非优化模式下进行全量diff&lt;br&gt;(patchChildren)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-10" value="无key节点diff&lt;br&gt;(patchUnkeyedChildren)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTJBzLjwEh6FHrzZWZ4-12" value="有key节点diff&lt;br&gt;(patchKeyedChildren)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
