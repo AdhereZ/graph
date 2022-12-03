@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T15:08:06.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="zsPhSq79HJR0VC-88pGQ" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T15:09:23.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lJVlG_QvC4zfrC1IpFkc" version="20.4.0" type="github">
   <diagram id="HqLqlk_vb4n4PDp0q8Rf" name="第 1 页">
     <mxGraphModel dx="1529" dy="614" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -42,8 +42,11 @@
         <mxCell id="IimsYGHhrWTF4OdhMrRI-2" value="系统管理员" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry y="132" width="108" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="IimsYGHhrWTF4OdhMrRI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="IimsYGHhrWTF4OdhMrRI-3" target="IimsYGHhrWTF4OdhMrRI-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IimsYGHhrWTF4OdhMrRI-3" value="设备管理员" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="480" y="132" width="120" height="60" as="geometry" />
+          <mxGeometry x="504" y="126" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IimsYGHhrWTF4OdhMrRI-7" value="审批权限" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-132" y="228" width="84" height="36" as="geometry" />
@@ -82,6 +85,9 @@
         </mxCell>
         <mxCell id="IimsYGHhrWTF4OdhMrRI-21" value="校外人员" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="250" y="264" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="IimsYGHhrWTF4OdhMrRI-25" value="设备维修提醒、清理、停用" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="498" y="228" width="132" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
