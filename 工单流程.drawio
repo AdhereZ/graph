@@ -1,14 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T15:39:04.886Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3yW8WxKQpsw90rzAhR1D" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T15:43:02.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="M2hDlJj6rtIUdmXL5crQ" version="20.4.0" type="github">
   <diagram id="TkiNwzYLDF7K4m7GwXY2" name="第 1 页">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3AOElncmlnkevbzGM93c-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-1" target="3AOElncmlnkevbzGM93c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3AOElncmlnkevbzGM93c-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Order数据表&lt;br&gt;(保存工单信息)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="70" width="140" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-2" target="3AOElncmlnkevbzGM93c-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3AOElncmlnkevbzGM93c-2" value="一对多&lt;br&gt;外键关联" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="232" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-4" target="3AOElncmlnkevbzGM93c-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-4" target="3AOElncmlnkevbzGM93c-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-4" target="3AOElncmlnkevbzGM93c-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-4" target="3AOElncmlnkevbzGM93c-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-4" target="3AOElncmlnkevbzGM93c-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-4" value="OrderNode数据表&lt;br&gt;（保存每个工单流程信息）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-7" target="3AOElncmlnkevbzGM93c-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-7" value="创建工单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="20" y="392" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-8" target="3AOElncmlnkevbzGM93c-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-8" value="工单审批" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="130" y="392" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-9" target="3AOElncmlnkevbzGM93c-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-9" value="工单派发" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="250" y="392" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="3AOElncmlnkevbzGM93c-10" target="3AOElncmlnkevbzGM93c-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-10" value="设备维修" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="360" y="392" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="3AOElncmlnkevbzGM93c-11" value="验收设备" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="470" y="392" width="80" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
