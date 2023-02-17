@@ -1,1 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T07:46:22.946Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.7.4" etag="OWYiWPFMiJ38FKPj75tT" type="github"><diagram id="cOzFjc2TccdZTdZRHrw-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-17T07:56:39.948Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.7.4" etag="PVXd6q7MEqT62896yNBd" type="github">
+  <diagram id="-CrECdMGKDsJMcERkumv" name="第 1 页">
+    <mxGraphModel dx="1834" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-2" target="0SiHuE_M3Q8HEih4Q5tr-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="324" y="214" />
+              <mxPoint x="-57" y="214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-2" target="0SiHuE_M3Q8HEih4Q5tr-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="324" y="215" />
+              <mxPoint x="105" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-2" target="0SiHuE_M3Q8HEih4Q5tr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-2" target="0SiHuE_M3Q8HEih4Q5tr-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="324" y="214" />
+              <mxPoint x="534" y="214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-2" target="0SiHuE_M3Q8HEih4Q5tr-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="324" y="214" />
+              <mxPoint x="744" y="214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-2" value="实验室维修管理系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="72" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-4" target="0SiHuE_M3Q8HEih4Q5tr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-4" value="统计分析模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="281" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66" y="391" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-6" target="0SiHuE_M3Q8HEih4Q5tr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-6" value="工作流程管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="281" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-9" target="0SiHuE_M3Q8HEih4Q5tr-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-9" value="基础数据导入模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="281" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-10" target="0SiHuE_M3Q8HEih4Q5tr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-10" value="系统维修配置模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="281" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-11" target="0SiHuE_M3Q8HEih4Q5tr-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-11" target="0SiHuE_M3Q8HEih4Q5tr-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SiHuE_M3Q8HEih4Q5tr-11" target="0SiHuE_M3Q8HEih4Q5tr-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-11" value="设备维修管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="279" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-15" value="数&lt;br&gt;据&lt;br&gt;分&lt;br&gt;析" style="rounded=0;whiteSpace=wrap;html=1;direction=south;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-81.5" y="391" width="42.5" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-19" value="工&lt;br&gt;作&lt;br&gt;流&lt;br&gt;程&lt;br&gt;实&lt;br&gt;施" style="rounded=0;whiteSpace=wrap;html=1;direction=south;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="391" width="42.5" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-20" value="工&lt;br&gt;作&lt;br&gt;流&lt;br&gt;程&lt;br&gt;规&lt;br&gt;划" style="rounded=0;whiteSpace=wrap;html=1;direction=south;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="117" y="391" width="42.5" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-23" value="固&lt;br&gt;定&lt;br&gt;资&lt;br&gt;产&lt;br&gt;管&lt;br&gt;理&lt;br&gt;平&lt;br&gt;台&lt;br&gt;导&lt;br&gt;入" style="rounded=0;whiteSpace=wrap;html=1;direction=south;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="302.75" y="391" width="42.5" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-26" value="权限控制" style="rounded=0;whiteSpace=wrap;html=1;direction=south;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="512.75" y="391" width="42.5" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-28" value="维&lt;br&gt;修&lt;br&gt;申&lt;br&gt;请&lt;br&gt;以&lt;br&gt;及&lt;br&gt;审&lt;br&gt;核" style="rounded=0;whiteSpace=wrap;html=1;direction=south;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="649" y="391" width="42.5" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-29" value="&amp;nbsp;维&lt;br&gt;修&lt;br&gt;商&lt;br&gt;登&lt;br&gt;记" style="rounded=0;whiteSpace=wrap;html=1;direction=south;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="722.75" y="391" width="42.5" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="0SiHuE_M3Q8HEih4Q5tr-30" value="维&lt;br&gt;修&lt;br&gt;验&lt;br&gt;收" style="rounded=0;whiteSpace=wrap;html=1;direction=south;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="804" y="391" width="42.5" height="162" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
