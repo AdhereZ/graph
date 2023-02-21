@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T07:15:04.396Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.7.4" etag="F7JMEOTkO6iBg0GO0Dn4" type="github"><diagram id="KhlNnPajMe6rM8tFler7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-21T07:19:35.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.7.4" etag="HU9V6S3ZL4X3NZDBuxg0" type="github">
+  <diagram id="WL7aAur9L4CWImLwiO5i" name="第 1 页">
+    <mxGraphModel dx="954" dy="616" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="94FcFMgmiPEx28OAl5Ld-1" target="94FcFMgmiPEx28OAl5Ld-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-1" value="实例化express对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="10" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="94FcFMgmiPEx28OAl5Ld-2" target="94FcFMgmiPEx28OAl5Ld-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-2" value="声明常量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="90" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="94FcFMgmiPEx28OAl5Ld-4" target="94FcFMgmiPEx28OAl5Ld-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-4" value="加载express中间件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="94FcFMgmiPEx28OAl5Ld-7" target="94FcFMgmiPEx28OAl5Ld-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-7" value="加载路由配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="94FcFMgmiPEx28OAl5Ld-9" target="94FcFMgmiPEx28OAl5Ld-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-9" value="设置静态文件存储目录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="300" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="94FcFMgmiPEx28OAl5Ld-10" value="监听端口开启web服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="390" width="132" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
