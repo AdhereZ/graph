@@ -1,20 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T08:38:41.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="FFCQ3_QncDWCinPZipvk" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T09:11:21.101Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5Ayin1L2JDjX_RNQhIKc" version="20.8.23" type="github">
   <diagram name="第 1 页" id="MVFlvkXrF9ImbxA_7--R">
     <mxGraphModel dx="1434" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vfM7BqZS5SPfah-GR2Ag-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;资产管理系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="25" y="81" width="120" height="60" as="geometry" />
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="vfM7BqZS5SPfah-GR2Ag-1" target="vfM7BqZS5SPfah-GR2Ag-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vfM7BqZS5SPfah-GR2Ag-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vfM7BqZS5SPfah-GR2Ag-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="231" y="121" as="sourcePoint" />
-            <mxPoint x="262" y="111" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;资产管理系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="13" y="219" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="vfM7BqZS5SPfah-GR2Ag-4" target="vfM7BqZS5SPfah-GR2Ag-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vfM7BqZS5SPfah-GR2Ag-4" value="导出个人资产excel" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="263" y="81" width="120" height="60" as="geometry" />
+          <mxGeometry x="13" y="317" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-5" value="导入本系统" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="15" y="413.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="vfM7BqZS5SPfah-GR2Ag-9" target="vfM7BqZS5SPfah-GR2Ag-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="201" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="vfM7BqZS5SPfah-GR2Ag-9" target="vfM7BqZS5SPfah-GR2Ag-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="vfM7BqZS5SPfah-GR2Ag-9" target="vfM7BqZS5SPfah-GR2Ag-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="vfM7BqZS5SPfah-GR2Ag-9" target="vfM7BqZS5SPfah-GR2Ag-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-9" value="设备管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="261" y="11" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="vfM7BqZS5SPfah-GR2Ag-12" target="vfM7BqZS5SPfah-GR2Ag-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-12" value="设备关联" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="13" y="122" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-14" value="设备弃用" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="179" y="127" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-16" value="设备维修记录" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="342" y="127" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfM7BqZS5SPfah-GR2Ag-18" value="保养维修提醒" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="481" y="127" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
