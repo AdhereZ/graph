@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T16:55:32.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="32j4RQeY4U2S7ENG5V7q" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T18:02:59.653Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="JGlODTzE8qpzNnPe33N4" version="21.6.6" type="github">
   <diagram name="第 1 页" id="KQPjAxCmX6oi2yRO8Yp7">
-    <mxGraphModel dx="911" dy="781" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1352" dy="781" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,10 +20,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="daDmTKv2HcwI5l8aC48d-2" value="js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-88" y="214" width="120" height="60" as="geometry" />
+          <mxGeometry x="-193" y="214" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="daDmTKv2HcwI5l8aC48d-3" value="app_service.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-88" y="359" width="120" height="60" as="geometry" />
+          <mxGeometry x="-193" y="359" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="daDmTKv2HcwI5l8aC48d-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="daDmTKv2HcwI5l8aC48d-6" target="daDmTKv2HcwI5l8aC48d-9">
           <mxGeometry relative="1" as="geometry" />
@@ -41,6 +41,9 @@
               <mxPoint x="203" y="459" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="daDmTKv2HcwI5l8aC48d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="daDmTKv2HcwI5l8aC48d-9" target="daDmTKv2HcwI5l8aC48d-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="daDmTKv2HcwI5l8aC48d-9" value="$gwx方法&lt;br&gt;(生成一个js对象，类似于虚拟dom)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="359" width="120" height="60" as="geometry" />
@@ -65,6 +68,12 @@
         </mxCell>
         <mxCell id="daDmTKv2HcwI5l8aC48d-19" value="通过window.eval注入上面的js代码字符串" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="213" y="462" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="daDmTKv2HcwI5l8aC48d-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="daDmTKv2HcwI5l8aC48d-20" target="daDmTKv2HcwI5l8aC48d-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="daDmTKv2HcwI5l8aC48d-20" value="WAWebview.js&amp;nbsp;&lt;br&gt;渲染虚拟dom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="489" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
