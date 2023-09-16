@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T16:37:04.132Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="U96iEl0r7vKuVaNZaWi2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T16:43:26.312Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TlsxXZYOYhLrVZ3YcjLO" version="21.6.6" type="github">
   <diagram name="第 1 页" id="KQPjAxCmX6oi2yRO8Yp7">
-    <mxGraphModel>
+    <mxGraphModel dx="2474" dy="1150" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="daDmTKv2HcwI5l8aC48d-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="daDmTKv2HcwI5l8aC48d-1" target="daDmTKv2HcwI5l8aC48d-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="daDmTKv2HcwI5l8aC48d-1" value="小程序编译原理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="91" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="daDmTKv2HcwI5l8aC48d-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="daDmTKv2HcwI5l8aC48d-2" target="daDmTKv2HcwI5l8aC48d-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="daDmTKv2HcwI5l8aC48d-2" value="js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="daDmTKv2HcwI5l8aC48d-3" value="app_service.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="359" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="daDmTKv2HcwI5l8aC48d-6" value="wxml" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="daDmTKv2HcwI5l8aC48d-7" value="page-frame.html" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="58" y="473" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="daDmTKv2HcwI5l8aC48d-9" value="$gwx方法&lt;br&gt;(生成一个js对象，类似于虚拟dom)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="326" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
